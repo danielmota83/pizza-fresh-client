@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+      "baseUrl": "./src",
       "module": "system",
       "noImplicitAny": true,
       "removeComments": true,
