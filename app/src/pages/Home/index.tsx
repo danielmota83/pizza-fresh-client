@@ -3,8 +3,13 @@ import { ReactComponent as Search } from "assets/icons/search.svg";
 import Menu from "components/Menu";
 import { RoutePath } from "types/routes";
 import { navigationItems } from "data/navigation";
+import { DateTime } from "luxon";
 
 const Home = () => {
+	const dateDescription = DateTime.now().toLocaleString({
+		...DateTime.DATE_SHORT,
+		weekday: "long",
+	  });
 	return <S.Home>
 		<Menu 
 		active={RoutePath.HOME}
@@ -14,7 +19,7 @@ const Home = () => {
 	<S.HomeHeaderDetails>
 		<div>
 			<S.HomeHeaderDetailsLogo>Pizza Fresh</S.HomeHeaderDetailsLogo>
-			<S.HomeHeaderDetailsDate>Aqui ficará a data</S.HomeHeaderDetailsDate>
+			<S.HomeHeaderDetailsDate>{dateDescription}</S.HomeHeaderDetailsDate>
 		</div>
         <S.HomeHeaderDetailsSearch>
 		<Search />
