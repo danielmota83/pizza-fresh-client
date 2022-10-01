@@ -1,15 +1,15 @@
 export const colors = {
-    primaryColor: '#222ce3',
-    secondaryColor: '#dec02c',
+    primaryColor: '#e63946',
+    secondaryColor: '#ff006e',
 
     primaryColorOpacity: 'rgba(108, 234, 105, 0.4)',
 
-    shadowColor: '#222ce3',
+    shadowColor: '#e63946',
 
-    baseBg1: "#252836",
-    baseBg2: "#1F1D2B",
-    baseForm: "#2D303E",
-    baseLine: "#393C49",
+    baseBg1: "#0077b6",
+    baseBg2: "#1d3557",
+    baseForm: "#1d3557",
+    baseLine: "#a8dadc",
 
     textColor: "#ffffff",
     textLighter: "#E0E6E9",
