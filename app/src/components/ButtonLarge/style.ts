@@ -13,8 +13,8 @@ export const ButtonLarge = styled.button`
 		width: 100%;
 		cursor: pointer;
 		${theme.mixins.bodyStyle()};
-		font-weight: 600;
-		box-shadow: 0px 8px 24px 0px ${theme.colors.shadowColor};
+		font-weight:900;
+		box-shadow: 0px 2px 6px 0px ${theme.colors.shadowColor};
 		&:disabled {
 			color: ${theme.colors.textDark};
 			background: ${theme.colors.baseBg1};
