@@ -51,6 +51,8 @@ export const EditProductDetailsPrice = styled.strong`
     color: ${theme.colors.primaryColor};
     text-align: center;
     max-width: 90%;
+    font-weight: 800;
+    color: yellow;
     margin: 0;
   `}
 `;
@@ -77,6 +79,8 @@ export const EditProductAction = styled.div`
     background: ${theme.colors.primaryColorOpacity};
     gap: 8px;
     border-radius: 0 0 8px 8px;
+    font-weight:1000;
+    color: yellow;
     cursor: pointer;
   `}
 `;
