@@ -53,12 +53,12 @@ const buttonFilled = (color = colors.primaryColor) => css`
   cursor: pointer;
   ${bodyStyle()};
   font-weight: 600;
-  box-shadow: 0px 8px 24px 0px ${colors.shadowColor};
+  box-shadow: 0px 2px 6px 0px ${colors.shadowColor};
 `;
 
 const buttonIconModifiers = {
   active: () => css`
-		box-shadow: 0px 8px 24px 0px ${colors.shadowColor};
+		box-shadow: 0px 2px 6px 0px ${colors.shadowColor};
   `,
 };
 
